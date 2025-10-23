@@ -2,13 +2,13 @@
 
 ## Overview
 
-This Python script automates the signup process on [TypeKadeh](https://typekadeh.com) using Selenium. It navigates to the signup page, fills in the required fields (email, username, password), and submits the form.
+This python file automates the signup process on [TypeKadeh](https://typekadeh.com) using Selenium. It visits the signup page, fills out the necessary fields (email, username, password), and submits the form.
 
 ## Features
 
 *   Automates account creation on TypeKadeh.
-*   Uses Selenium to interact with the website.
-*   Configurable with your desired email, username, and password.
+*   Uses Selenium to automate action taken on website.
+*   A configuration file can be used where you can specify your email, username, and password.
 
 ## Installation
 
@@ -58,13 +58,13 @@ This Python script automates the signup process on [TypeKadeh](https://typekadeh
 
 ## Customization
 
-*   **Credentials:** Modify the email, username, and password directly in the script.
-*   **XPath Selectors:** If TypeKadeh changes its website structure, you'll need to update the XPath selectors in the script to match the new structure.  Inspect the elements in your browser's developer tools to get the correct XPaths.
-*   **Browser:**  The script currently uses Chrome.  You can adapt it to other browsers supported by Selenium (e.g., Firefox) by changing the `webdriver.Chrome()` line.  You'll also need the appropriate WebDriver for that browser.
+*   **Credentials:** You can change the email, username, and password inside of the script.
+*   **XPath Selectors:** If the website structure changes (TypeKadeh), you will have to update the XPath selectors in the script for it to work.  You can inspect the elements through your developer tools of the browser to get the correct XPaths.
+*   **Browser:**  This script uses Chrome by default, but can be changed to any other browser with Selenium support, such as Firefox, by changing the line in the script where it says `webdriver.Chrome()`.  You will need the WebDriver for the browser you want to use.
 
 ## Disclaimer
 
-This script is intended for educational purposes and personal use. Automating account creation may violate the terms of service of TypeKadeh. Use responsibly and at your own risk.  The author is not responsible for any consequences of using this script.
+The authors intention for this code is for educational purposes and personal use only.  Automating account creation can likely violate the terms of agreement for TypeKadeh. Use responsively and at your own risk, as the author takes no responsibility for any consequences that happen from running the code provided above.
 
 ## License
 
