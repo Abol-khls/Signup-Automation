@@ -10,21 +10,26 @@ This Python script automates the signup process on [TypeKadeh](https://typekadeh
 *   Uses Selenium to interact with the website.
 *   Configurable with your desired email, username, and password.
 
-## Prerequisites
-
-*   Python 3.6+
-*   Selenium (`pip install selenium`)
-*   Chrome WebDriver (make sure it's in your PATH, or Selenium will download automatically)
-*   Google Chrome Browser
-
 ## Installation
 
 1.  Clone this repository:
 
     ```sh
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/Abol-khls/Signup-Automation.git
     ```
+
+3.  Install Python virtual environment:
+
+    ```sh
+    python -m venv .venv
+    ```
+
+4.  activate Python virtual environment:
+
+    ```sh
+    .venv\Scripts\activate
+    ```
+
 2.  Install the required Python package:
 
     ```sh
