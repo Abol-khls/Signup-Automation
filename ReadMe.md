@@ -4,6 +4,14 @@
 
 This python file automates the signup process on [TypeKadeh](https://typekadeh.com) using Selenium. It visits the signup page, fills out the necessary fields (email, username, password), and submits the form.
 
+##  Research Paper
+
+This project is presented and discussed in the following research paper:
+
+[**Read the Research Paper**]()
+
+---
+
 ## Features
 
 *   Automates account creation on TypeKadeh.
