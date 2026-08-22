@@ -8,7 +8,7 @@ This python file automates the signup process on [TypeKadeh](https://typekadeh.c
 
 This project is presented and discussed in the following research paper:
 
-[**Read the Research Paper**]()
+[**Read the Research Paper**](https://medium.com/@abolfazldehghanpoorr/automating-a-website-signup-process-with-python-and-selenium-e4e5d332d5cb?sharedUserId=abolfazldehghanpoorr)
 
 ---
 
